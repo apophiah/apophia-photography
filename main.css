@@ -1,0 +1,300 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(back4.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #ca9a9a;
+    padding: 10px 20px;
+    box-shadow: 0px 10px 10px rgb(143, 120, 165);}
+
+/* Logo Styling */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+    float: right;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Responsive Navigation for Mobile */
+@media (max-width: 768px) {
+    .nav-links {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+        
+    }
+}
+img{
+    height: 60px;
+    width: 90px;
+}
+#content{
+    margin-top: 100px;
+    margin-left: 60%;
+    font-size: 40px;
+    color: rgb(28, 26, 32);
+    font-family: 'Times New Roman';
+}
+#footer {
+    background-color:inherit; 
+    margin-top: 100px;
+    color:white;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+
+.about-section {
+    background-color: inherit;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: inherit;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff00dd;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    color: #ff00aa;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#content h1{
+    color: black
+}
+.contact-section {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.portfolio-section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #1c89ff;
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.portfolio-item p {
+    color: #555;
+}
+img2{
+    height: 200px;
+    width: 300px;th
+}
+.animation-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+.slide-in {
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #007bff;
+    animation: rotate 3s infinite linear;
+}
+
+.pulse-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+}
+
+.pulse-button:hover {
+    background-color: #218838;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
